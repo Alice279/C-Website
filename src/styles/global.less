@@ -1,0 +1,236 @@
+@import 'variables.less';
+@import 'fonts.less';
+
+html {
+  scroll-behavior: smooth;
+  letter-spacing: 0.04em;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'PingFang SC',
+    'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}
+
+// override bootstrap
+
+@media (min-width: 1300px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1000px;
+  }
+}
+
+.btn {
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: @mainColor;
+  border-color: @mainColor;
+  transition: background-color 0.3s linear;
+
+  &:hover {
+    background-color: @violet;
+    border-color: @violet;
+  }
+}
+
+.btn-ex-link {
+  padding-right: 52px;
+  background-image: url('../assets/images/icon-link.png');
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+  background-size: 24px 24px;
+}
+
+.btn-ex-link-secondary {
+  padding-right: 52px;
+  background-image: url('../assets/images/icon-link-secondary.png');
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+  background-size: 24px 24px;
+  background-color: #fff;
+  color: @brandBlack;
+
+  &:hover {
+    color: @violet;
+    background-color: #fff;
+    border-color: @violet;
+  }
+}
+
+.btn-in-link {
+  padding-right: 52px;
+  background-image: url('../assets/images/icon-in-link.png');
+  background-repeat: no-repeat;
+  background-position: right 24px center;
+  background-size: 24px 24px;
+}
+
+// make dropdown hoverable
+
+//.dropdown:hover > .dropdown-menu {
+//  display: block;
+//}
+//.dropdown > .dropdown-toggle:active {
+//  /*Without this, clicking will make it sticky*/
+//  pointer-events: none;
+//}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.sub-header {
+  text-align: center;
+  margin-bottom: 70px;
+
+  h3,
+  .current {
+    display: none;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 24px;
+      margin-right: 24px;
+      font-size: 14px;
+      line-height: 18px;
+
+      a {
+        display: block;
+        color: @brandBlack;
+        padding-bottom: 5px;
+        border-bottom: 1px solid transparent;
+
+        &.active,
+        &:hover {
+          text-decoration: none;
+          border-bottom: 1px solid @brandBlack;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .sub-header {
+    margin-bottom: 30px;
+
+    &.show {
+      ul.show{
+        position: absolute;
+        width: calc(100% - 48px);
+        background-color: #fff;
+        z-index: 1;
+      }
+    }
+
+    h3 {
+      display: block;
+      text-align: left;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .current {
+      display: block;
+      text-align: left;
+      font-size: 16px;
+      line-height: 24px;
+      outline: none;
+      background-image: url("../assets/images/light/icon-arrow-up.png");
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: 24px 24px;
+
+      &.collapse {
+        background-image: url("../assets/images/light/icon-arrow-down.png");
+      }
+    }
+
+    ul {
+      display: none;
+      padding: 28px 40px;
+      text-align: left;
+
+      &.show {
+        display: block;
+      }
+
+      li {
+        display: block;
+        margin: 0 0 16px 0;
+        font-size: 16px;
+        line-height: 24px;
+
+        a {
+          display: block;
+          color: @brandBlack;
+          padding-bottom: 5px;
+          border-bottom: none;
+
+          &.active,
+          &:hover {
+            font-weight: 600;
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 286px;
+  bottom: 0;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  &.show {
+    display: block;
+  }
+}
+
+.lock {
+  height: 100vh;
+  overflow: hidden;
+}

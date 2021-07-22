@@ -1,0 +1,273 @@
+{
+  "Media Feed": "Media Feed",
+  "test_url": "https://admintest.confluxnetwork.org/media-website-ens",
+  "prod_url": "https://admin.confluxnetwork.org/media-website-ens",
+  "Articles": [
+    {
+      "link": "https://medium.com/conflux-network/conflux-nft-name-service-launches-7ab315714524",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux NFT Name Service Launches",
+      "date": "Jan 12, 2021"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-ecosystem-progress-report-december-18-december-31-2020-9b6a1c1c1d0e",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Ecosystem Progress Report: December 18–December 31, 2020",
+      "date": "Jan 1, 2021"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-network-and-waves-enterprise-will-work-together-to-bridge-data-between-private-blockchains-1a04d04cbb25",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network and Waves Enterprise Will Work Together to Bridge Data Between Private Blockchains",
+      "date": "Dec 25, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-ecosystem-progress-report-december-5-december-17-2020-d4b5f9588410",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Ecosystem Progress Report: December 5–December 17, 2020",
+      "date": "Dec 24, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/bi-weekly-progress-report-december-7-20-2020-32631e7cdffa",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Bi-Weekly Progress Report: December 7–20, 2020",
+      "date": "Dec 23, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/shuttleflow-protocol-passes-peckshield-security-audit-fe0aa0f20d27?source=collection_home---4------3-----------------------",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "ShuttleFlow Protocol Passes PeckShield Security Audit",
+      "date": "Dec 18, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-and-razor-network-create-partnership-to-bring-decentralized-oracle-solutions-to-225d411735f2",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux and Razor Network Create Partnership to Bring Decentralized Oracle Solutions to State-of-the-Art DApps",
+      "date": "Dec 10, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-network-and-the-commons-stack-partner-to-accelerate-growth-for-decentralized-communities-f8540ebbf0ea",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network and The Commons Stack Partner to Accelerate Growth for Decentralized Communities",
+      "date": "Dec 9, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/bi-weekly-progress-report-november-23-december-6-2020-b376d0f280bc",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Bi-Weekly Progress Report: November 23–December 6, 2020",
+      "date": "Dec 8, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-ecosystem-progress-report-november-23-december-3-2020-5863e8f2a69f",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Ecosystem Progress Report: November 23–December 3, 2020",
+      "date": "Dec 5, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/kick-starting-your-protocols-deployment-in-china-59683bf8ea55",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Kick-Starting Your Protocol’s Deployment in China",
+      "date": "Dec 4, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-economic-model-ecosystem-development-incentives-and-governance-4c1fb4569c0d",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Economic Model — Ecosystem Development Incentives and Governance",
+      "date": "Dec 1, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/hacking-decentralized-commerce-winners-ad49fefcb4be",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Hacking Decentralized Commerce Winners",
+      "date": "Nov 27, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/waves-partners-up-with-conflux-to-amplify-defi-focused-infrastructure-1128c7203791",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Waves Partners Up With Conflux to Amplify DeFi-Focused Infrastructure",
+      "date": "Nov 24, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/bi-weekly-progress-report-november-9-november-22-2020-c479d66bcc9a",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Bi-Weekly Progress Report: November 9–November 22, 2020",
+      "date": "Nov 24, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/the-convergence-of-blockchain-and-gaming-63ba53bd47ee",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "The Convergence of Blockchain and Gaming",
+      "date": "Nov 20, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/we-choose-the-dao-17eae015ce51",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "We Choose The DAO",
+      "date": "Nov 19, 2020"
+    },
+    {
+      "link": "https://decrypt.co/48296/beavering-away-at-the-conflux-network-a-chinese-blockchains-attempt-to-fix-ethereum",
+      "img": "/images/media/decrypt.png",
+      "type": "decrypt",
+      "title": "Beavering Away at the Conflux Network: A Chinese Blockchain’s Attempt to 'Fix' Ethereum",
+      "date": "Nov 16, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/scaling-defi-with-l1-bridges-c0eb10031710",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Scaling DeFi With L1 Bridges",
+      "date": "Nov 13, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/bi-weekly-progress-report-october-26-november-8-2020-ed88283c78f3",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Bi-Weekly Progress Report: October 26–November 8, 2020",
+      "date": "Nov 10, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/tethys-mainnet-is-live-cd9819a96ae3",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Tethys Mainnet is Live",
+      "date": "Oct 30, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/first-wave-of-conflux-ecosystem-grant-winners-awarded-ab082b57eaaa",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "First Wave of Conflux Ecosystem Grants Winners Awarded",
+      "date": "Oct 29, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-network-and-gitcoin-present-hacking-decentralized-commerce-7f5c90c526fa",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network and Gitcoin Present: Hacking Decentralized Commerce",
+      "date": "Oct 24, 2020"
+    },
+    {
+      "link": "https://confluxnetwork.medium.com/mainnet-fc-exchange-plan-announcement-ff77e956d576",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Mainnet FC Exchange Plan Announcement",
+      "date": "Oct 16, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/the-future-of-nfts-f4c5dbc5f4c6",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Utilizing NFTs to drive innovation in RFTs, data economies, and the Web3 stack",
+      "date": "Oct 9, 2020"
+    },
+    {
+      "link": "https://eng.ambcrypto.com/fetch-ai-partners-with-conflux-network-to-launch-dev-kit-for-chinas-blockchain-developers/",
+      "img": "/images/media/ambcrypto.png",
+      "type": "ambcrypto",
+      "title": "Fetch.ai Partners With Conflux Network to Launch Dev Kit for China’s Blockchain Developers",
+      "date": "Oct 15, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-network-partners-with-stablecorp-to-further-global-stablecoin-innovation-and-awareness-8f7ed4e42d00",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network Partners with Stablecorp To Further Global Stablecoin Innovation and Awareness",
+      "date": "Oct 5, 2020"
+    },
+    {
+      "link": "https://cointelegraph.com/news/chinese-state-endorsed-public-chain-to-act-as-a-global-defi-bridge-says-conflux-ceo",
+      "img": "/images/media/cointelegraph.png",
+      "type": "cointelegraph",
+      "title": "Chinese state-endorsed public chain to act as a global DeFi bridge, says Conflux Founder",
+      "date": "Sep 24, 2020"
+    },
+    {
+      "link": "https://cointelegraph.com/news/new-defi-alliance-to-connect-eastern-and-western-defi-markets",
+      "img": "/images/media/cointelegraph.png",
+      "type": "cointelegraph",
+      "title": "New DeFi alliance to connect Eastern and Western DeFi markets",
+      "date": "Sep 4, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-network-partners-with-bcw-to-design-next-generation-payment-solutions-974997416bc6",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network Partners With BCW To Design Next-Generation Payment Solutions",
+      "date": "Sep 4, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/scaling-applications-with-conflux-network-1fc0022a4c94",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Scaling Applications with Conflux Network",
+      "date": "Sep 18, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/unleashing-data-accessibility-on-conflux-network-c733e12b5728",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Unleashing Data Accessibility on Conflux Network",
+      "date": "Sep 11, 2020"
+    },
+    {
+      "link": "https://www.cryptoninjas.net/2020/09/15/conflux-network-integrates-with-south-korean-blockchain-icon/",
+      "img": "/images/media/cryptoninjas.png",
+      "type": "cryptoninjas",
+      "title": "Conflux Network integrates with South Korean blockchain ICON",
+      "date": "Sep 15, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-economic-model-staking-collateral-for-storage-on-conflux-network-cb4c8c150e3",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Economic Model — Staking & Collateral For Storage On Conflux Network",
+      "date": "Sep 4, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/hunan-government-endorses-conflux-network-2020-shanghai-science-technology-festival-kick-off-88cac64f53b7",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Hunan Government Endorses Conflux Network; 2020 Shanghai Science & Technology Festival Kick-Off Ceremony",
+      "date": "Aug 28, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/confluxs-2-4-billion-cfx-ecosystem-grants-program-854a0b2161c1",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux’s 2.4 Billion CFX Ecosystem Grants Program",
+      "date": "Jul 22, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/expanding-access-to-web3-with-sms-5b39344c27fb",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Smart Contract Interaction Through SMS Messaging Using Conflux Network and Chainlink",
+      "date": "Jul 11, 2020"
+    },
+    {
+      "link": "https://medium.com/conflux-network/conflux-network-partners-with-lissx-to-build-a-life-settlements-exchange-platform-e6186221375f",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network Partners With LISSX to Build a Life Settlements Exchange Platform",
+      "date": "Jun 25, 2020"
+    }
+  ]
+}

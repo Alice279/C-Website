@@ -1,0 +1,244 @@
+@import '../../styles/variables.less';
+
+.joinus {
+  padding-top: 80px;
+  background-image: url('../../assets/images/community/bg-joinus.png');
+  background-repeat: no-repeat;
+  background-position: bottom 20px right ~'calc(50vw - 640px)';
+  background-size: 1264px;
+  padding-bottom: 100px;
+
+  :global {
+    h2 {
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 64px;
+      margin-bottom: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: 0.04em;
+      margin-bottom: 24px;
+
+      &.subtitle {
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 0.04em;
+      }
+    }
+
+    section {
+      margin-top: 130px;
+    }
+
+    .container {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .joinus {
+    background: none;
+
+    :global {
+      h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        margin-bottom: 40px;
+      }
+
+      p {
+        &.subtitle {
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+
+      .container {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+
+      .social {
+        a {
+          margin-right: 16px;
+        }
+        display: block !important;
+      }
+    }
+  }
+}
+
+.ad {
+  margin-top: 0 !important;
+
+  :global {
+    h1 {
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 72px;
+      margin-bottom: 40px;
+    }
+
+    .container {
+      text-align: center;
+      min-height: 510px;
+      background-image: url('../../assets/images/index/bg-grid.png');
+      background-repeat: no-repeat;
+      background-position: top 0px center;
+      background-size: 100%;
+
+      .btn-in-link {
+        margin-top: 40px;
+      }
+
+      .link-title {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: @mainColor;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+
+      @media (max-width: 992px) {
+        h1 {
+          font-size: 48px;
+          line-height: 64px;
+        }
+      }
+    }
+
+    @media (max-width: 992px) {
+      .container {
+        background: none;
+      }
+    }
+
+    .social {
+      a {
+        position: relative;
+        display: inline-block;
+        margin-right: 16px;
+
+        img {
+          width: 24px;
+          transition: 0.3s transform;
+        }
+
+        .qrcode {
+          display: none;
+        }
+
+        &:hover,
+        &:focus {
+          img {
+            transform: scale(1.2);
+          }
+          .qrcode {
+            position: absolute;
+            display: block;
+            width: 114px;
+            bottom: 36px;
+            right: -40px;
+          }
+        }
+      }
+      @media (max-width: 992px) {
+        a {
+          margin-right: 56px;
+        }
+        a:last-child {
+          margin-right: 0;
+        }
+        .last-a {
+          text-align: left;
+          padding-left: 31.5px;
+          a{
+            // margin-right: 240px;
+          }
+        }
+      }
+    }
+
+    ul {
+      padding: 0;
+
+      li {
+        list-style: none;
+
+        a {
+          display: block;
+          font-size: 12px;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  :global {
+    img.m-auto {
+      margin-bottom: 60px !important;
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+}
+
+.education {
+  :global {
+    .wrapper {
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 528px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.ambassador {
+  p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  @media (max-width: 992px) {
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  :global {
+    .container {
+      text-align: center;
+    }
+    .btn {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.question {
+  :global {
+    .container {
+      text-align: center;
+    }
+
+    .btn-mail-link {
+      padding-left: 60px;
+      background-image: url('../../assets/images/icon-mail-link.png');
+      background-repeat: no-repeat;
+      background-position: left 22px center;
+      background-size: 24px 24px;
+    }
+  }
+}

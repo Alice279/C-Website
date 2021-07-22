@@ -1,0 +1,112 @@
+@import '../styles//variables';
+
+.item {
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  color: @brandBlack;
+  letter-spacing: 0.04em;
+  margin-bottom: 128px;
+  cursor: pointer;
+
+  .pic {
+    width: 320px;
+    height: 320px;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 24px 0 8px;
+  }
+  .title {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1050;
+    background-color: @gray20;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    :global {
+      .container {
+        padding: 48px 24px 48px 72px;
+        background-color: @white;
+      }
+      h2 {
+        font-size: 18px;
+        line-height: 28px;
+        color: @blue;
+        letter-spacing: 0.05em;
+        margin-bottom: 16px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        color: @brandBlack;
+        max-width: 496px;
+      }
+      .closeBtn {
+        width: 72px;
+        height: 72px;
+        border: 1px solid @blue;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        img {
+          width: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .item {
+    padding: 0;
+    margin-bottom: 96px;
+    .popup {
+      overflow-y: auto;
+      display: block;
+      background-color: @white;
+      :global {
+        .container {
+          margin: 15px;
+          padding: 24px;
+          padding-top: 88px;
+          width: calc(100% - 30px);
+          background-color: @white;
+          position: relative;
+        }
+        h2 {
+          margin-top: 64px;
+          font-weight: 400;
+        }
+        p {
+          margin-bottom: 88px;
+        }
+        .closeBtn {
+          position: fixed;
+          top: 50px;
+          right: 28px;
+          border: none;
+          width: 16px;
+          height: 16px;
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+  }
+}

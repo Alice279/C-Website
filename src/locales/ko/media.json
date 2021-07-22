@@ -1,0 +1,119 @@
+{
+  "Media Feed": "미디어 보도",
+  "test_url": "https://admintest.confluxnetwork.org/media-website-kos",
+  "prod_url": "https://admin.confluxnetwork.org/media-website-kos",
+  "Articles": [
+    {
+      "link": "https://blog.naver.com/conflux-chain/222198731862",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux 상에서 여러분들의 프로토콜 배포를 시작하세요!",
+      "date": "2021.1.6"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222185230950",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux Network, 프라이빗 블록체인간 데이터 연결을 위해 Waves Enterprise와 협력",
+      "date": "2020.12.25"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222185250554",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "ShuttleFlow Protocol, PeckShield의 보안 감사 통과",
+      "date": "2020.12.25"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222185239930",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux, Razor Network와 최첨단 DApp에 탈중앙화 오라클 솔루션 도입을 위한 파트너십 체결",
+      "date": "2020.12.25"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222169751552",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux Network와  The Commons Stack, 탈중앙화 커뮤니티 영역의 활성화를 위한 파트너십 채결",
+      "date": "2020.12.10"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222159603467",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux 경제 모델 - 생태계 발전 인센티브 및 거버넌스",
+      "date": "2020.12.1"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222154137967",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux, Waves와 DeFi 인프라 확대를 위한 파트너십 체결",
+      "date": "2020.11.25"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222143554721",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "[Conflux] Layer-1 브릿지를 통한 DeFi 확장성 재고",
+      "date": "2020.11.13"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222132906526",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "[Conflux] Tethys Mainnet의 활성화 !",
+      "date": "2020.11.1"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222131887996",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "[Conflux_Research] NFT의 미래",
+      "date": "2020.10.31"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222117433812",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "[Conflux] FC swap 관련 공지",
+      "date": "2020.10.16"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222109405544",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux Network, Stablecorp와 파트너십 체결 - 글로벌 스테이블 코인의 혁신과 인식 재고를 위한 여정",
+      "date": "2020.10.7"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222102006869",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "AMM(자동화 마켓메이킹) DEX들은 유동성에 대한 해답일까",
+      "date": "2020.9.28"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222093103625",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux Network, BCW 그룹과 차세대 결제 솔루션 구축을 위한 파트너십 체결",
+      "date": "2020.9.18"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222092472426",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux Network를 활용한 애플리케이션의 스케일링 솔루션",
+      "date": "2020.9.17"
+    },
+    {
+      "link": "https://blog.naver.com/conflux-chain/222087634237",
+      "img": "/images/media/naver.svg",
+      "type": "naver",
+      "title": "Conflux Network상의 데이터 접근성 활성화",
+      "date": "2020.9.12"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+@import '../styles/variables';
+
+.header {
+  display: block;
+
+  :global {
+    .header-bg {
+      height: 82px;
+      opacity: 0;
+    }
+    .navbar {
+      padding: 16px 0;
+      z-index: 1050;
+    }
+    .navbar-light {
+      &.has-bg {
+        background-color: @white;
+      }
+      .nav-link,
+      .dropdown-item {
+        color: @brandBlack;
+        border-bottom: 1px solid transparent;
+      }
+      .nav-item {
+        .nav-link.active {
+          border-bottom: 1px solid @brandBlack;
+        }
+      }
+      .nav-link:hover {
+        color: @brandBlack;
+        border-bottom: 1px solid @brandBlack;
+      }
+      .navbar-collapse {
+        background-color: transparent;
+      }
+    }
+    .navbar-dark {
+      &.has-bg {
+        background-color: @brandBlack;
+      }
+      .nav-link,
+      .dropdown-item {
+        color: @white;
+        border-bottom: 1px solid transparent;
+      }
+      .nav-item {
+        .nav-link.active {
+          border-bottom: 1px solid @white;
+        }
+      }
+      .nav-link:hover {
+        color: @white;
+        border-bottom: 1px solid @white;
+      }
+      .navbar-collapse {
+        background-color: transparent;
+      }
+    }
+
+    .dropdown-toggle:hover {
+      border-bottom: none !important;
+    }
+    .dropdown-menu {
+      background-color: transparent;
+      min-width: auto;
+      text-align: right;
+      border: none;
+
+      .dropdown-item {
+        display: block;
+        text-align: right;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 5px 12px 0;
+        width: auto;
+      }
+      .dropdown-item:first-child {
+        margin-top: 0;
+      }
+    }
+    .bg-dark {
+      background-color: @brandBlack !important;
+      .dropdown-item {
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-bottom: 1px solid @white;
+        }
+      }
+    }
+    .bg-light {
+      background-color: @white !important;
+      .dropdown-item {
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-bottom: 1px solid @brandBlack;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    :global {
+      .navbar-nav.justify-content-center {
+        .nav-item .nav-link {
+          margin-right: 16px;
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    :global {
+      .navbar {
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+      .navbar-brand {
+        margin-left: 24px;
+      }
+      .navbar-toggler {
+        margin-right: 16px;
+        border: none;
+      }
+      .navbar-nav {
+        padding-left: 36px;
+      }
+      .navbar-collapse {
+        padding-bottom: 50px;
+        min-height: calc(100vh - 60px);
+      }
+      .navbar-light {
+        .navbar-collapse {
+          background-color: @white;
+        }
+        .navbar-toggler[aria-expanded='true'] {
+          .navbar-toggler-icon {
+            background-image: url('../assets/images/light/icon-close.png');
+          }
+        }
+      }
+      .navbar-dark {
+        .navbar-collapse {
+          background-color: @brandBlack;
+        }
+        .navbar-toggler[aria-expanded='true'] {
+          .navbar-toggler-icon {
+            background-image: url('../assets/images/dark/icon-close.png');
+          }
+        }
+      }
+      .navbar-nav.justify-content-center {
+        margin-top: 6vh;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 5vh;
+
+        .nav-item .nav-link {
+          display: inline-block;
+          margin-bottom: 8px;
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
+      .dropdown-toggle {
+        display: none;
+      }
+
+      .dropdown-menu {
+        display: block !important;
+        text-align: left;
+        .dropdown-item {
+          display: inline-block;
+          margin-right: 24px;
+        }
+      }
+    }
+  }
+}
+
+// TODO more media queries
+
+.logo {
+  img {
+    height: 40px;
+  }
+}
+
+.mainNav {
+  flex-grow: 1;
+
+  :global {
+    .nav-item .nav-link {
+      padding: 3px 0;
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+  }
+}
+
+.extraNav {
+}
+
+.selectLang {
+  margin-left: 35px !important;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+  &:after {
+    display: none;
+  }
+}

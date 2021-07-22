@@ -1,0 +1,274 @@
+@import '../styles/variables';
+
+.ecosystem {
+  padding-top: 130px;
+  background-image: url('../assets/images/ecosystem/city.png');
+  background-repeat: no-repeat;
+  background-position: top 130px center;
+  background-size: 100vw;
+
+  :global {
+    img {
+      max-width: 100%;
+      width: 344px;
+      height: 72px;
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 64px;
+      margin-bottom: 96px;
+    }
+    .eco-title {
+      display: flex;
+      justify-content: space-between;
+      h2 {
+        display: flex;
+        width: auto;
+      }
+      a {
+        height: 40px;
+        width: 147px;
+      }
+    }
+    .mobile-a {
+      display: none;
+      width: 147px;
+      height: 39px;
+      margin-top: 88px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      max-width: 344px;
+      &.title {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-top: 40px;
+      }
+      &.subtitle-main {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      &.subtitle {
+        margin-top: -1rem;
+        font-size: 12px;
+        line-height: 18px;
+        color: @blue10;
+      }
+      &.desc {
+        min-height: 204px;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  .ecosystem{
+    background-size: 1700px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ecosystem {
+    background-image: url('../assets/images/ecosystem/city-mobile.png');
+    background-repeat: no-repeat;
+    background-position: top 152px center;
+    background-size: 100vw;
+    padding: 60px 8px 8px;
+    :global {
+      .eco-title {
+        display: flex;
+        a {
+          display: none;
+        }
+      }
+      .mobile-a {
+        display: block;
+      }
+      img {
+        width: 327px;
+        margin-top: 96px;
+      }
+      h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        margin-bottom: 0;
+      }
+      p {
+        max-width: 100%;
+        &.title {
+          font-size: 24px;
+          line-height: 40px;
+          font-weight: 600;
+          margin-top: 54px;
+        }
+        &.subtitle {
+          font-size: 12px;
+          line-height: 18px;
+          color: @blue10;
+        }
+        &.desc {
+          margin-bottom: 64px;
+          margin-top: 16px;
+          min-height: unset;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.subheader {
+  :global {
+    p {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .subheader {
+    :global {
+      p {
+        display: block;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        margin-left: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.city {
+  padding-top: 192px;
+  height: 900px;
+  :global {
+    h1 {
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 72px;
+      margin-bottom: 48px;
+    }
+    p {
+      font-size: 24px;
+      line-height: 40px;
+      max-width: 528px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .city {
+    padding-top: 585px;
+    height: 800px;
+    :global {
+      h1 {
+        font-size: 48px;
+        line-height: 64px;
+      }
+      p {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.defi {
+  padding-top: 154px;
+  :global {
+    p {
+      &.title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 32px;
+        min-height: 96px;
+      }
+      &.desc {
+        min-height: 280px;
+        margin-bottom: 92px;
+      }
+      &.desc-zh {
+        min-height: 180px;
+        margin-bottom: 92px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .defi {
+    :global {
+      p {
+        &.title {
+          font-size: 27px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .defi {
+    padding-top: 0px;
+    :global {
+      p {
+        &.title {
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 48px;
+          margin-bottom: 24px;
+          margin-top: 96px;
+          min-height: unset;
+        }
+        &.desc {
+          margin-bottom: 64px;
+          min-height: unset;
+        }
+        &.desc-zh {
+          min-height: unset;
+          margin-bottom: 64px;
+        }
+      }
+    }
+  }
+}
+
+.structure {
+  padding-top: 196px;
+  :global {
+    p.desc-zh {
+      min-height: 100px;
+      margin-bottom: 92px;
+    }
+  }
+}
+.product {
+  padding-top: 182px;
+  :global {
+  }
+}
+
+@media (max-width: 992px) {
+  .product {
+    padding-top: 182px;
+    :global {
+      p {
+        &.desc {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,155 @@
+@import '../styles//variables';
+
+.about {
+  padding-top: 120px;
+  color: @brandBlack;
+  letter-spacing: 0.04em;
+  :global {
+    .container {
+      padding: 0;
+    }
+    .text {
+      margin-bottom: -24px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .about {
+    padding-top: 82px;
+    color: @brandBlack;
+    letter-spacing: 0.04em;
+    position: relative;
+  }
+}
+
+.story {
+  :global {
+    .container {
+      background-image: url('../assets/images/index/bg-grid.png');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 100%;
+    }
+    h2 {
+      display: none;
+    }
+    .text {
+      padding: 88px 0 0 60px;
+    }
+    img {
+      width: 474px;
+      margin-top: 54px;
+      margin-left: 60px;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 72px;
+      margin-bottom: 48px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .story {
+    :global {
+      .container {
+        background: none;
+      }
+      .text {
+        padding: 488px 0 0;
+      }
+      .mobile-img {
+        position: absolute;
+        top: 200px;
+        left: 0;
+        img {
+          margin: 0 auto;
+          display: block;
+          width: 100%;
+          // max-width: 313px;
+          max-width: 413px;
+        }
+      }
+      h2 {
+        display: block;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+        margin: 12px 24px;
+      }
+      .row {
+        padding: 0 9px;
+        margin: 0;
+      }
+      img {
+        width: 327px;
+        margin: 0;
+      }
+      h1 {
+        font-size: 48px;
+        line-height: 64px;
+      }
+    }
+  }
+}
+
+.team {
+  padding: 200px 60px 0;
+  :global {
+    h2 {
+      font-size: 48px;
+      line-height: 64px;
+      font-weight: 700;
+      margin-bottom: 48px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      // max-width: 556px;
+    }
+    .member {
+      margin: 120px -50px 0;
+    }
+    .text {
+      padding: 0 60px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .team {
+    padding: 88px 0 40px;
+    :global {
+      h2 {
+        margin-bottom: 48px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 556px;
+      }
+      .member {
+        margin: 40px auto 0;
+      }
+      .text {
+        padding: 0 24px;
+      }
+      .mobile-padding {
+        margin: 0 -24px;
+        h2 {
+          padding: 0 9px;
+        }
+        p {
+          margin: 0 9px;
+        }
+      }
+    }
+  }
+}

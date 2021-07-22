@@ -1,0 +1,126 @@
+{
+  "Media Feed": "СМИ",
+  "test_url": "https://admintest.confluxnetwork.org/media-website-rus",
+  "prod_url": "https://admin.confluxnetwork.org/media-website-rus",
+  "Articles": [
+    {
+      "link": "https://confluxrunews.medium.com/conflux-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D0%B5%D1%82-%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%83-%D0%B8%D0%BC%D0%B5%D0%BD-nft-70156b665c99",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux запускает службу имен NFT",
+      "date": "2021.1.12"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/conflux-network-%D0%B8-waves-enterprise-%D0%B1%D1%83%D0%B4%D1%83%D1%82-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D1%82%D1%8C-%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B5-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D0%BC%D0%B8-%D1%81%D0%B5%D1%82%D1%8F%D0%BC%D0%B8-b260ae9329d7",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network и Waves Enterprise будут работать вместе для передачи данных между частными сетями",
+      "date": "2020.12.29"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-conflux-cabd9532dee1",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Доступность данных в сети Conflux",
+      "date": "2020.12.22"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81-defi-%D0%B4%D0%BB%D1%8F-%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B8-%D0%B7%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE-%D1%80%D1%8B%D0%BD%D0%BA%D0%BE%D0%B2-defi-40f93d803837",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Новый альянс DeFi для соединения восточного и западного рынков DeFi",
+      "date": "2020.12.22"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/conflux-network-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B8%D1%80%D1%83%D0%B5%D1%82%D1%81%D1%8F-%D1%81-%D1%8E%D0%B6%D0%BD%D0%BE%D0%BA%D0%BE%D1%80%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%BC-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD%D0%BE%D0%BC-icon-7a995096928d",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network интегрируется с южнокорейским блокчейном ICON",
+      "date": "2020.12.22"
+    },
+    {
+      "link": "7%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-conflux-%D1%81%D1%82%D0%B5%D0%BA%D0%B8%D0%BD%D0%B3-%D0%B8-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-conflux-fa55a628eabb",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Экономическая модель Conflux - стекинг и обеспечение для хранения в сети Conflux",
+      "date": "2020.12.22"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/fetch-ai-%D0%B8-conflux-network-%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%B8-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B0%D1%82%D1%8C-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%86%D0%B8%D0%B8-%D0%BD%D0%B0-%D0%B1%D0%B0%D0%B7%D0%B5-a9f84221af45",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Fetch.ai и Conflux Network начали сотрудничать для обеспечения глобальной коммерции на базе искусственного интеллекта",
+      "date": "2020.10.17"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B0-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%B2-fc-a6a6baf99b83",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Условия обмена токенов FC",
+      "date": "2020.10.16"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5-nft-effac72d20fb",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Будущее NFT",
+      "date": "2020.10.10"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/conflux-network-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B0%D0%B5%D1%82-%D1%81%D0%BE-stablecorp-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5%D0%B9%D1%88%D0%B5%D0%B3%D0%BE-%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F-%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%B8%D0%BD%D0%BD%D0%BE%D0%B2%D0%B0%D1%86%D0%B8%D0%B9-%D0%B8-e743337d53cd",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network сотрудничает со Stablecorp для дальнейшего развития глобальных инноваций и повышения осведомленности о стейблкоинах",
+      "date": "2020.10.6"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/conflux-network-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B0%D0%B5%D1%82-%D1%81-bcw-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BD%D1%8B%D1%85-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-5b4de42950cehttps://confluxrunews.medium.com/conflux-network-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B0%D0%B5%D1%82-%D1%81-bcw-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BD%D1%8B%D1%85-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-5b4de42950ce",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network сотрудничает с BCW для разработки платежных решений нового поколения",
+      "date": "2020.9.19"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-conflux-network-4d75103618e3",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Масштабирование приложений с помощью Conflux Network",
+      "date": "2020.9.18"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D0%B5%D1%82-%D0%B4%D0%B2%D0%B5%D1%80%D0%B8-%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC%D1%83-%D0%B8-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BC%D1%83-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD%D1%83-e12177301264https://confluxrunews.medium.com/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9-%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D0%B5%D1%82-%D0%B4%D0%B2%D0%B5%D1%80%D0%B8-%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%BC%D1%83-%D0%B8-%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BC%D1%83-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD%D1%83-e12177301264",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Китай открывает двери частному и публичному блокчейну",
+      "date": "2020.8.29"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE-%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%BE%D0%B9-%D0%BF%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D1%86%D0%B8%D0%B8-%D1%85%D1%83%D0%BD%D0%B0%D0%BD%D1%8C-%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D0%BB%D0%BE-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8E-%D0%B4%D0%BB%D1%8F-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B1%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD-20f925ee5904",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Правительство китайской провинции Хунань выбрало компанию для создания новой блокчейн инфраструктуры в своём регионе.",
+      "date": "2020.8.21"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BA-web3-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-sms-7e4ec17fc40https://confluxrunews.medium.com/%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BA-web3-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-sms-7e4ec17fc40",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Расширений доступ к Web3 с помощью SMS",
+      "date": "2020.7.27"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/conflux-network-%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D1%87%D0%B0%D0%B5%D1%82-%D1%81-lissx-%D1%87%D1%82%D0%BE%D0%B1%D1%8B-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%84%D0%BE%D0%BD%D0%B4-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2-%D1%80%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-dc439b43a228",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Conflux Network сотрудничает с LISSX чтобы создать фонд обеспечения в реальном времени",
+      "date": "2020.7.22"
+    },
+    {
+      "link": "https://confluxrunews.medium.com/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-conflux-%D0%BF%D0%BE-%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8E-%D0%B3%D1%80%D0%B0%D0%BD%D1%82%D0%BE%D0%B2-%D0%BD%D0%B0-2-4-%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D1%80%D0%B4%D0%B0-cfx-%D1%8D%D0%BA%D0%BE%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D0%BC-18b35c491731",
+      "img": "/images/media/medium.png",
+      "type": "medium",
+      "title": "Программа Conflux по предоставлению грантов на 2,4 миллиарда CFX",
+      "date": "2020.7.21"
+    }
+  ]
+}

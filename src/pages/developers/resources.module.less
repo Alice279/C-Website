@@ -1,0 +1,461 @@
+@import '../../styles/variables.less';
+
+.index {
+  padding-top: 80px;
+
+  h2 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: @mainColor;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 48px;
+  }
+
+  @media (max-width: 992px) {
+    h1 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+  }
+
+  :global {
+    .container {
+      min-height: 650px;
+      background-image: url('../../assets/images/index/bg-grid.png');
+      background-repeat: no-repeat;
+      background-position: top 80px center;
+      background-size: 100%;
+    }
+    @media (max-width: 992px) {
+      .container {
+        background: none;
+      }
+    }
+  }
+}
+
+.banner {
+  padding: 30px 30px 30px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  > div {
+    width: 50%;
+  }
+
+  > div:first-child {
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  > div:last-child {
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    max-width: 474px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner {
+    padding: 0;
+    flex-direction: column;
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    > div {
+      width: 100%;
+    }
+
+    > div:first-child {
+      padding-right: 0;
+      margin-top: 80px;
+      order: 2;
+    }
+
+    > div:last-child {
+      margin-top: 40px;
+      order: 1;
+    }
+  }
+}
+
+.section {
+  margin-top: 160px;
+  padding: 30px 80px;
+
+  h3,
+  h4 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: @brandBlack;
+    margin-bottom: 48px;
+  }
+
+  h4 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section {
+    margin-top: 176px;
+    padding: 0;
+    h3 {
+      font-size: 36px;
+      line-height: 48px;
+      margin-bottom: 40px;
+    }
+
+    h4 {
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.presentation {
+  :global {
+    .download {
+      display: none;
+    }
+    .tabs {
+      display: flex;
+      justify-content: center;
+      text-align: left;
+
+      .tab-links {
+        width: 50%;
+
+        > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          padding-right: 80px;
+          margin-bottom: 24px;
+          outline: none;
+          color: #999999;
+
+          .has-subtitle {
+            width: 100%;
+            margin-bottom: 0;
+            padding-right: 60px;
+          }
+
+          p {
+            width: 100%;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 40px;
+            margin-bottom: 0;
+            padding-right: 60px;
+          }
+
+          p.sub-sub-title {
+            font-size: 16px;
+            margin-top: 0;
+          }
+
+          &.active {
+            color: @mainColor;
+            &:after {
+              visibility: visible;
+            }
+          }
+
+          &:after {
+            visibility: hidden;
+            content: '';
+            display: block;
+            width: 144px;
+            height: 0;
+            border-bottom: 1px solid @mainColor;
+          }
+
+          &:last-child {
+            justify-content: left;
+
+            &:after {
+              display: none;
+            }
+          }
+
+          .btn {
+            margin-top: 50px;
+          }
+        }
+      }
+
+      .tab-content {
+        display: none;
+        width: 50%;
+
+        p.sub-title {
+          display: none;
+        }
+
+        p.sub-sub-title {
+          font-size: 16px;
+          margin-top: 0;
+        }
+
+        strong {
+          font-weight: normal;
+        }
+
+        &.show {
+          display: block;
+        }
+
+        img {
+          width: 100%;
+          max-width: 528px;
+          margin-bottom: 48px;
+        }
+
+        ul {
+          padding-left: 0;
+          margin-left: 0;
+
+          li {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 16px;
+            padding-left: 24px;
+            list-style: none;
+            background-image: url('../../assets/images/icon-list.png');
+            background-repeat: no-repeat;
+            // background-position: center left;
+            background-position: top 0px left 0;
+            background-size: 12px 24px;
+          }
+        }
+
+        p {
+          margin-top: 24px;
+          margin-bottom: 0;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+
+          strong {
+            display: block;
+            font-weight: normal;
+            margin-left: 5px;
+            font-size: 32px;
+            line-height: 48px;
+            color: @mainColor;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .presentation {
+    :global {
+      .tabs {
+        flex-direction: column;
+
+        .tab-links {
+          display: none !important;
+        }
+
+        .tab-content {
+          display: block;
+          width: 100%;
+
+          p.sub-title {
+            display: block;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 40px;
+            margin-bottom: 30px !important;
+            color: @mainColor;
+          }
+        }
+      }
+
+      .download {
+        display: block;
+        margin-top: 60px;
+      }
+    }
+  }
+}
+
+.techdoc {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-bottom: 24px;
+
+      a {
+        display: block;
+        padding: 40px 80px 40px 48px;
+        background-image: url('../../assets/images/icon-link-secondary.png');
+        background-repeat: no-repeat;
+        background-position: right 48px top 40px;
+        background-size: 24px 24px;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 1px;
+
+        span {
+          display: block;
+          font-size: 24px;
+          line-height: 40px;
+          color: @mainColor;
+          margin-bottom: 16px;
+        }
+
+        &:hover {
+          text-decoration: none;
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+
+          span:first-child {
+            text-decoration: underline;
+          }
+        }
+
+        :global {
+          .author {
+            font-size: 16px;
+            line-height: 24px;
+            color: @brandBlack;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .techdoc {
+    ul li {
+      a {
+        padding: 24px 56px 24px 24px;
+        background-position: right 24px top 24px;
+
+        span {
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+.devdoc {
+  padding-bottom: 150px;
+  background-image: url('../../assets/images/developers/bg-big-cube.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 379px;
+
+  p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  a {
+    margin-top: 64px;
+  }
+}
+
+.tools {
+  margin-top: 10px;
+  a {
+    margin-top: 48px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+
+  :global {
+    .col-12 {
+      padding-right: 60px;
+      p:nth-child(2) {
+        min-height: 84px;
+      }
+      @media (max-width: 1300px) {
+        p:nth-child(2) {
+          min-height: 112px;
+        }
+      }
+    }
+    .col-12:last-child {
+      padding-right: 15px;
+    }
+    .title {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 40px;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .devdoc {
+    background: none;
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  .tools {
+    :global {
+      .col-12 {
+        padding-right: 15px;
+        p:nth-child(2) {
+          min-height: auto;
+        }
+      }
+      .col-12:last-child {
+        margin-top: 90px;
+      }
+    }
+  }
+}
